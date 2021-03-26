@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(18, 163, 103);
+    padding-top: 20px;
+}
+
+#inputs {
+    display: inline-block;
+    margin: 20px;
+}
+
+
+.card {
+    width: 100px;
+    height: 150px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 8px;
+    margin: 15px;
+    box-shadow: 1px 1px 8px black;
+}
+
+label {
+    font-size: 30px;
+    margin: 20px;
+}
+
+#bubbleLabel {
+    margin: 40px;
+}
+
+.middleNumber {
+    text-align: center;
+    padding:30px 0;
+    font-size: 30px;
+}
+
+.topSuit {
+    margin: 4px;
+    font-size: 20px;
+    text-align: left;  
+}
+
+.bottonSuit {
+    font-size: 20px;
+    text-align: right;
+    margin: 3px;
+}
+
+.newCard {
+    width: 100px;
+    height: 150px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.button {
+    color: black;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: red;
+   
+}
