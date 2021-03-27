@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Card generator.js</title>
+    <title>Card generator bubble sort js</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -12,19 +12,30 @@
 
     <body>
         <!-- BOTONES generadores + Input -->
-    <div id="inputs">
-        <label for="original">Original: </label> 
-        <input id="amountOfCards" name="amountOfCards" type="text">
-        <button class="button" id="draw">Draw</button>
-        <button class="button" id="Sort">Sort</button>
-    </div>
+        <div id="inputs">
+            <label for="original">Original: </label>
+            <!-- input -->
+            <input id="amountOfCards" name="amountOfCards" type="text">
+            <button id="btnDraw" class="button" >Draw</button>
+            <button id="btnSort" class="button">Sort</button>
+        </div>
+
+
         <!-- Deck Principal -->
         <div id="cardDeck"></div>
 
+
+
         <!-- Sort de cartas -->
         <label id="bubbleLabel" for="bubbleSort">Bubble Log: </label>
-        <div id="sortDeck" ></div>
-        <script type="text/javascript" src="./main.js"></script>
+        <div id="sortDeck">
+            
+        </div>
+
+
+
+
+        <script src="./main.js"></script>
     </body>
 
 </html>

@@ -46,13 +46,6 @@ label {
     margin: 3px;
 }
 
-.newCard {
-    width: 100px;
-    height: 150px;
-    background-color: white;
-    border-radius: 8px;
-    margin: 5px;
-}
 
 .button {
     color: black;
@@ -64,5 +57,25 @@ label {
 
 .button:hover {
     background-color: red;
-   
+    
+}
+
+/* card sort  */
+.newCard {
+    width: 100px;
+    height: 150px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 8px;
+    margin: 15px;
+    box-shadow: 1px 1px 8px black;
+    
+}
+
+/* div sort loop */
+.lines {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
 }
